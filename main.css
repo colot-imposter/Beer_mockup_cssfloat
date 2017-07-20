@@ -173,10 +173,12 @@ article time{
     color: #666;
 }
 article img{
-  float:right;
-  width:280px;
-  height:210px;
-  margin:40px:
+  /*display: block;*/
+  float: right;
+  width: 260px;
+  height: 200px;
+  /*margin:40px:*/
+
     /*
         TODO:
         - Float article images to the right
@@ -184,13 +186,15 @@ article img{
     */
 }
 article footer p{
-clear:both;
-border-top: 1px solid gray;
+/*clear:both;*/
+border-top: 1px solid #666;
 text-align: center;
 font-family: "Noto Serif";
-font-size: .8em;
+font-size: .6em;
 color:gray;
-padding-top: 20px;
+padding-top: 10px;
+display: block;
+margin-top: 60px;
 text-transform: uppercase;
     /*
         TODO:
